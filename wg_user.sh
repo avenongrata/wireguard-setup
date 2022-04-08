@@ -66,7 +66,7 @@ if [[ $1 != "-a" && $1 != "-r" ]]; then
 else
     # check is user name is specified
     if [ -z $2 ]; then
-        echo -e "\t{RED}Specify user name${NC}";
+        echo -e "\t${RED}Specify user name${NC}";
         exit;
     fi
     # run needed fucntion
