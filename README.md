@@ -1,6 +1,7 @@
 # wireguard-setup
 Allows you setup wireguard server.
 
+  - clean_transfer.sh - for cleaning transfer logs
   - colors - for pretty printing
   - create_crontab_job - for adding job to crontab (every 10 minutes)
   - gen_config.sh - generate config for new user
